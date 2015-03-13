@@ -47,7 +47,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         var recordingName = formatter.stringFromDate(currentDateTime)+".wav"
         var pathArray = [dirPath, recordingName]
         let filePath = NSURL.fileURLWithPathComponents(pathArray)
-        println(filePath)
         //sets up audio session
         var session = AVAudioSession.sharedInstance()
         session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
