@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ESZ-8r-kRi">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -47,9 +48,6 @@
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="145" y="358" width="111" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.37254901960784315" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,8 +70,6 @@
                                 <exclude reference="CdK-Yq-h0N"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1Dz-XE-74q"/>
-                                <exclude reference="H9p-QU-9Iv"/>
                                 <exclude reference="le4-jV-Iwn"/>
                                 <exclude reference="nne-wm-azl"/>
                                 <exclude reference="Jp7-EF-PtD"/>
@@ -81,6 +77,8 @@
                                 <exclude reference="jco-OY-itN"/>
                                 <exclude reference="6LW-DI-2Hz"/>
                                 <exclude reference="bQU-3c-IoG"/>
+                                <exclude reference="1Dz-XE-74q"/>
+                                <exclude reference="H9p-QU-9Iv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -91,8 +89,6 @@
                                 <include reference="CdK-Yq-h0N"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1Dz-XE-74q"/>
-                                <include reference="H9p-QU-9Iv"/>
                                 <include reference="le4-jV-Iwn"/>
                                 <include reference="nne-wm-azl"/>
                                 <include reference="Jp7-EF-PtD"/>
@@ -100,6 +96,8 @@
                                 <include reference="jco-OY-itN"/>
                                 <include reference="6LW-DI-2Hz"/>
                                 <include reference="bQU-3c-IoG"/>
+                                <include reference="1Dz-XE-74q"/>
+                                <include reference="H9p-QU-9Iv"/>
                             </mask>
                         </variation>
                     </view>
@@ -196,16 +194,16 @@
                                 <exclude reference="hRa-xv-4gl"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="aqZ-DE-lu7"/>
                                 <exclude reference="dF5-KR-OKC"/>
                                 <exclude reference="r2s-Fb-LXD"/>
-                                <exclude reference="W7f-1p-ByX"/>
-                                <exclude reference="Xfb-fA-K1X"/>
                                 <exclude reference="eHC-Pk-hTf"/>
                                 <exclude reference="jly-Re-gbI"/>
                                 <exclude reference="Slv-b1-EjF"/>
                                 <exclude reference="git-WH-rk0"/>
+                                <exclude reference="W7f-1p-ByX"/>
+                                <exclude reference="Xfb-fA-K1X"/>
                                 <exclude reference="cIf-UG-3vD"/>
-                                <exclude reference="aqZ-DE-lu7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -217,16 +215,16 @@
                                 <include reference="hRa-xv-4gl"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="aqZ-DE-lu7"/>
                                 <include reference="dF5-KR-OKC"/>
                                 <include reference="r2s-Fb-LXD"/>
-                                <include reference="W7f-1p-ByX"/>
-                                <include reference="Xfb-fA-K1X"/>
                                 <include reference="eHC-Pk-hTf"/>
                                 <include reference="jly-Re-gbI"/>
                                 <include reference="Slv-b1-EjF"/>
                                 <include reference="git-WH-rk0"/>
+                                <include reference="W7f-1p-ByX"/>
+                                <include reference="Xfb-fA-K1X"/>
                                 <include reference="cIf-UG-3vD"/>
-                                <include reference="aqZ-DE-lu7"/>
                             </mask>
                         </variation>
                     </view>
